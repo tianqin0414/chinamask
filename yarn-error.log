@@ -1,0 +1,69 @@
+Arguments: 
+  /usr/local/Cellar/node/12.4.0/bin/node /usr/local/bin/yarn run dev
+
+PATH: 
+  /usr/local/opt/redis@3.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tianqin/Desktop/react/react-in-practice/node_modules/.bin:/usr/local/apache-maven-3.6.2/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/tianqin/Desktop/react/react-in-practice/package.json: Unexpected token / in JSON at position 186
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "jwpay-web-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "MOCK_JWPAY_API=true node server.js",
+      "build": "next build",
+  //    "start注释": "NODE_ENV=production MOCK_JWPAY_API=true node server.js",
+  //    "start": "next -p 9000"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@zeit/next-less": "^1.0.1",
+      "antd": "^3.21.2",
+      "express": "^4.17.1",
+      "isomorphic-unfetch": "^3.0.0",
+      "less": "^3.9.0",
+      "moment": "^2.24.0",
+      "next": "^9.0.3",
+      "next-redux-wrapper": "^3.0.0-alpha.3",
+      "numeral": "^2.0.6",
+      "querystring": "^0.2.0",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6",
+      "react-redux": "^7.1.0",
+      "redux": "^4.0.4",
+      "redux-devtools-extension": "^2.13.8",
+      "redux-logger": "^3.0.6",
+      "redux-persist": "^5.10.0",
+      "redux-thunk": "^2.3.0",
+      "url": "^0.11.0",
+      "websocket": "^1.0.29"
+    },
+    "devDependencies": {
+      "http-proxy-middleware": "^0.19.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

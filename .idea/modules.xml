@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/react-in-practice.iml" filepath="$PROJECT_DIR$/.idea/react-in-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../chinamask/.idea/chinamask.iml" filepath="$PROJECT_DIR$/../chinamask/.idea/chinamask.iml" />
     </modules>
   </component>
 </project>
